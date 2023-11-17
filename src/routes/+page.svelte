@@ -30,8 +30,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto 1fr auto;
-    gap: 2rem;
-    padding: 6rem 7%;
+    column-gap: 2rem;
+    row-gap: 0;
+    padding: 4rem 7%;
     grid-template-areas:
       "Title Title"
       "CreatePlayer AddPlayer"
@@ -41,6 +42,11 @@
 
   h2 {
     grid-area: Title;
+    padding: 1rem;
+  }
+
+  p{
+    padding: 1rem;
   }
 
   .CreatePlayer {
@@ -53,7 +59,6 @@
 
   .form {
     grid-area: form;
-    border-radius: 1.5rem;
   }
 
   .other {
