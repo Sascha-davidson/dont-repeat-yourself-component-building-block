@@ -1,5 +1,7 @@
 <script>
   import Nav from "$lib/nav/Nav.svelte";
+  import SaveNext from "$lib/buttons/save-next.svelte";
+  import Form from "$lib/form/form.svelte";
 </script>
 
 <div>
@@ -7,9 +9,10 @@
     <h2 id="title">Create Player</h2>
     <p class="CreatePlayer">Create a player</p>
     <p class="AddPlayer">Add player to team</p>
-    <form action="" />
-    <p class="other">other</p>
-    <button>save</button>
+    <Form />
+
+    <p class="other">other data</p>
+    <SaveNext />
   </main>
 
   <Nav />
@@ -28,7 +31,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto 1fr auto;
     gap: 2rem;
-    padding: 8rem 10%;
+    padding: 6rem 7%;
     grid-template-areas:
       "Title Title"
       "CreatePlayer AddPlayer"
@@ -48,7 +51,7 @@
     grid-area: AddPlayer;
   }
 
-  form {
+  .form {
     grid-area: form;
     border-radius: 1.5rem;
   }
@@ -59,12 +62,5 @@
 
   button{
     grid-area: button;
-    height: fit-content;
-    width: fit-content;
-    padding: 1rem 2rem;
-    border-radius: 50rem;
-    background-color: #63C6A7;
-    color: white;
-    border: none;
   }
 </style>

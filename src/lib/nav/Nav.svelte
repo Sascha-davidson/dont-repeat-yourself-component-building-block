@@ -1,7 +1,7 @@
 <div class="nav-container">
     <nav>
         <ul>
-            <li><a routerLink="/"><svg width="35" height="35" viewBox="0 0 35 35" fill="none">
+            <li><a href="#"><svg width="35" height="35" viewBox="0 0 35 35" fill="none">
                         <g clip-path="url(#clip0_372_18064)">
                             <path d="M7.29167 17.5H4.375L17.5 4.375L30.625 17.5H27.7083" stroke-width="3"
                                 stroke-linecap="round" stroke-linejoin="round" />
@@ -13,7 +13,8 @@
                         </g>
                     </svg>
                     Home</a></li>
-            <li><a routerLink="all-players"><svg width="35" height="35" viewBox="0 0 35 35" fill="none">
+            
+                    <li><a href="#"><svg width="35" height="35" viewBox="0 0 35 35" fill="none">
                         <path
                             d="M2.91666 5.83341C2.91666 6.60696 3.22395 7.34883 3.77093 7.89581C4.31791 8.44279 5.05977 8.75008 5.83332 8.75008C6.60687 8.75008 7.34874 8.44279 7.89572 7.89581C8.4427 7.34883 8.74999 6.60696 8.74999 5.83341C8.74999 5.05987 8.4427 4.318 7.89572 3.77102C7.34874 3.22404 6.60687 2.91675 5.83332 2.91675C5.05977 2.91675 4.31791 3.22404 3.77093 3.77102C3.22395 4.318 2.91666 5.05987 2.91666 5.83341Z"
                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -142,6 +143,7 @@ a{
     font-size: 13px;
     gap: .5rem;
     stroke: #B8C1E0;
+    cursor: pointer;
 }
 
 a:hover{
