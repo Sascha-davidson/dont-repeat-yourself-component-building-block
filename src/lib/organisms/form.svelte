@@ -57,15 +57,15 @@
     padding-top: 1.5rem;
   }
 
-  #MyForm::-webkit-scrollbar-track {
+  form::-webkit-scrollbar-track {
     border-radius: 10px;
   }
 
-  #MyForm::-webkit-scrollbar {
+  form::-webkit-scrollbar {
     width: 12px;
   }
 
-  #MyForm::-webkit-scrollbar-thumb {
+  form::-webkit-scrollbar-thumb {
     border-radius: 10px;
     /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
     background-color: #a7a7a7;
