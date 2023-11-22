@@ -1,7 +1,7 @@
 <script>
   import Form from "$lib/organisms/form.svelte";
   import Button from "$lib/atoms/button.svelte";
-
+  import LinkButton from "$lib/atoms/link-button.svelte";
 </script>
 
 <div>
@@ -11,6 +11,7 @@
     <p class="AddPlayer">Add player to team</p>
     <Form FormID="FormID" Method="get" Action="/AllPlayers"/>
     <Button ButtonType="submit" ButtonText="Save" FormID="FormID"/>
+    <!-- <LinkButton Routing="/" LinkText="Next Page" /> -->
     <p class="other">other data</p>
   </main>
 
